@@ -23,17 +23,18 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
                         User List
-                        <a href="./add_user.php"><button class="btn btn-outline-success" type="submit">Add user</button></a>
+                        <a href="./add_rent.php"><button class="btn btn-outline-success" type="submit">Add rent</button></a>
                     </div>
                     <div class="card-body">
-                        <table id="user_table" class="table">
+                        <table id="rent_table" class="table">
                             <thead>
                                 <tr>
                                     <th scope="col">ID</th>
                                     <th scope="col">Name</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Phone number</th>
-                                    <th scope="col">Role</th>
+                                    <th scope="col">Start Time</th>
+                                    <th scope="col">Finish Time</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -43,11 +44,13 @@
                                     <td>Otto</td>
                                     <td>@mdo</td>
                                     <td>@mdo</td>
+                                    <td>@mdo</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>Jacob</td>
                                     <td>Thornton</td>
+                                    <td>@fat</td>
                                     <td>@fat</td>
                                     <td>@fat</td>
                                 </tr>
@@ -65,7 +68,7 @@
 <script>
 
     $(document).ready( function () {
-        $('#user_table').DataTable();
+        $('#rent_table').DataTable();
     } );
 
     

@@ -22,18 +22,16 @@
             <div id="content" class="col p-3">
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        User List
-                        <a href="./add_user.php"><button class="btn btn-outline-success" type="submit">Add user</button></a>
+                        Station List
+                        <a href="./add_station.php"><button class="btn btn-outline-success" type="submit">Add station</button></a>
                     </div>
                     <div class="card-body">
-                        <table id="user_table" class="table">
+                        <table id="rent_table" class="table">
                             <thead>
                                 <tr>
                                     <th scope="col">ID</th>
                                     <th scope="col">Name</th>
-                                    <th scope="col">Email</th>
-                                    <th scope="col">Phone number</th>
-                                    <th scope="col">Role</th>
+                                    <th scope="col">Address</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -41,15 +39,11 @@
                                     <th scope="row">1</th>
                                     <td>Mark</td>
                                     <td>Otto</td>
-                                    <td>@mdo</td>
-                                    <td>@mdo</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>Jacob</td>
                                     <td>Thornton</td>
-                                    <td>@fat</td>
-                                    <td>@fat</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -65,7 +59,7 @@
 <script>
 
     $(document).ready( function () {
-        $('#user_table').DataTable();
+        $('#rent_table').DataTable();
     } );
 
     
