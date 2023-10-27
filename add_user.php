@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add user</title>
-    
+
     <?php include_once("navbar.php"); ?>
 </head>
 
 <body>
-    <main class="container-fluid">
+    <main class="container-fluid ">
         <div class="row">
-
+            <?php include_once("sidebar.php"); ?>
+            
             <div id="content" class="col p-3">
                 <div class="card">
                     <div class="card-header">

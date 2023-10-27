@@ -18,23 +18,22 @@
 
     <main class="container-fluid">
         <div class="row">
-        <?php include_once("sidebar.php"); ?>
+            <?php include_once("sidebar.php"); ?>
             <div id="content" class="col p-3">
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        Rent Information List
-                        <a href="./add_rent.php"><button class="btn btn-outline-success" type="submit">Add rent</button></a>
+                        Mechanics List
+                        <a href="./add_user.php"><button class="btn btn-outline-success" type="submit">Add user</button></a>
                     </div>
                     <div class="card-body">
-                        <table id="rent_table" class="table">
+                        <table id="mechanic_table" class="table">
                             <thead>
                                 <tr>
                                     <th scope="col">ID</th>
                                     <th scope="col">Name</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Phone number</th>
-                                    <th scope="col">Start Time</th>
-                                    <th scope="col">Finish Time</th>
+                                    <th scope="col">Station ID</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -44,13 +43,11 @@
                                     <td>Otto</td>
                                     <td>@mdo</td>
                                     <td>@mdo</td>
-                                    <td>@mdo</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>Jacob</td>
                                     <td>Thornton</td>
-                                    <td>@fat</td>
                                     <td>@fat</td>
                                     <td>@fat</td>
                                 </tr>
@@ -68,7 +65,7 @@
 <script>
 
     $(document).ready( function () {
-        $('#rent_table').DataTable();
+        $('#mechanic_table').DataTable();
     } );
 
     

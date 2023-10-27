@@ -18,15 +18,15 @@
 
     <main class="container-fluid">
         <div class="row">
-
+        <?php include_once("sidebar.php"); ?>
             <div id="content" class="col p-3">
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        Station List
+                        Stations List
                         <a href="./add_station.php"><button class="btn btn-outline-success" type="submit">Add station</button></a>
                     </div>
                     <div class="card-body">
-                        <table id="rent_table" class="table">
+                        <table id="station_table" class="table">
                             <thead>
                                 <tr>
                                     <th scope="col">ID</th>
@@ -59,7 +59,7 @@
 <script>
 
     $(document).ready( function () {
-        $('#rent_table').DataTable();
+        $('#station_table').DataTable();
     } );
 
     

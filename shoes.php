@@ -22,19 +22,17 @@
             <div id="content" class="col p-3">
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        Rent Information List
-                        <a href="./add_rent.php"><button class="btn btn-outline-success" type="submit">Add rent</button></a>
+                        Shoes List
+                        <a href="./add_shoes.php"><button class="btn btn-outline-success" type="submit">Add shoes</button></a>
                     </div>
                     <div class="card-body">
-                        <table id="rent_table" class="table">
+                        <table id="shoes_table" class="table">
                             <thead>
                                 <tr>
                                     <th scope="col">ID</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Email</th>
-                                    <th scope="col">Phone number</th>
-                                    <th scope="col">Start Time</th>
-                                    <th scope="col">Finish Time</th>
+                                    <th scope="col">Model</th>
+                                    <th scope="col">Received Date</th>
+                                    <th scope="col">Station ID</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -43,15 +41,11 @@
                                     <td>Mark</td>
                                     <td>Otto</td>
                                     <td>@mdo</td>
-                                    <td>@mdo</td>
-                                    <td>@mdo</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>Jacob</td>
                                     <td>Thornton</td>
-                                    <td>@fat</td>
-                                    <td>@fat</td>
                                     <td>@fat</td>
                                 </tr>
                             </tbody>
@@ -68,7 +62,7 @@
 <script>
 
     $(document).ready( function () {
-        $('#rent_table').DataTable();
+        $('#shoes_table').DataTable();
     } );
 
     

@@ -4,30 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    
+    <title>Add user</title>
+
     <?php include_once("navbar.php"); ?>
 </head>
 
 <body>
-    <main class="container-fluid">
+    <main class="container-fluid ">
         <div class="row">
-            
             <?php include_once("sidebar.php"); ?>
+
             <div id="content" class="col p-3">
                 <div class="card">
                     <div class="card-header">
-                        Login
+                        Add Station Information
                     </div>
                     <div class="card-body">
-                        <form id="login_form">
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email">
+                        <form id="add_user_form" class="row">
+                            <div class="col-12 mb-3">
+                                <label for="station_name" class="form-label">Station Name</label>
+                                <input type="text" class="form-control" id="station_name">
                             </div>
-                            <div class="mb-3">
-                                <label for="pass" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="pass">
+                            <div class="col-12 mb-3">
+                                <label for="station_address" class="form-label">Station Address</label>
+                                <input type="text" class="form-control" id="station_address">
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>

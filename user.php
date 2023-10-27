@@ -18,11 +18,11 @@
 
     <main class="container-fluid">
         <div class="row">
-
+            <?php include_once("sidebar.php"); ?>
             <div id="content" class="col p-3">
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        User List
+                        Users List
                         <a href="./add_user.php"><button class="btn btn-outline-success" type="submit">Add user</button></a>
                     </div>
                     <div class="card-body">
