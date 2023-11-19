@@ -83,7 +83,7 @@
             </li>
             <hr style="color:black">
             <li class="nav-item">
-                <a class="nav-link" href="./login.php"><button class="btn btn-outline-success"style="color:black" type="submit">Logout</button></a>
+                <a href="./login.php"><button class="btn btn-outline-success"style="color:black" type="submit">Logout</button></a>
             </li>
         </ul>
     
