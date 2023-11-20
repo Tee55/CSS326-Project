@@ -29,7 +29,7 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
                         <h3>Rent Information List</h3>
-                        <a href="./add_rent.php"><button class="btn btn-outline-success" style="color:black" type="submit">Add rent</button></a>
+                        <a href="create_rent.php"><button class="btn btn-outline-success" style="color:black" type="submit">Add rent</button></a>
                     </div>
                     <div class="card-body">
                         <table id="rent_table" class="table">

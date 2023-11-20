@@ -30,7 +30,7 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
                         <h3>Shoes List</h3>
-                        <a href="./add_shoes.php"><button class="btn btn-outline-success" style="color:black" type="submit">Add shoes</button></a>
+                        <a href="create_shoes.php"><button class="btn btn-outline-success" style="color:black" type="submit">Add shoes</button></a>
                     </div>
                     <div class="card-body">
                         <table id="shoes_table" class="table">

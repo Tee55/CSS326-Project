@@ -30,7 +30,7 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
                         <h3>Stations List</h3>
-                        <a href="./add_station.php"><button class="btn btn-outline-success" style="color:black" type="submit">Add station</button></a>
+                        <a href="create_station.php"><button class="btn btn-outline-success" style="color:black" type="submit">Add station</button></a>
                     </div>
                     <div class="card-body">
                         <table id="station_table" class="table">
